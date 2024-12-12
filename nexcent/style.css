@@ -63,8 +63,6 @@ button{
     justify-content: space-evenly;
     align-items: center;
     padding: 3rem;
-    width: 1440;
-    height: 599;
 }
 
 h1{
@@ -101,5 +99,25 @@ h1{
    .hero-img{
     height: 407;
     width: 391;
+   }
+
+   .clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+   }
+
+   .clients-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .clients-logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 6.5rem;
    }
    
