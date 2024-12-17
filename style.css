@@ -134,6 +134,8 @@ h1{
     text-align: center;
     color: var(--ngrey);
     padding: 3rem 0 0 7rem;
+    margin: auto;
+    justify-content: center;
    }
 
    .bodysec-text{
@@ -141,6 +143,7 @@ h1{
     flex-direction: column;
     align-items: start;
     text-align: start;
+    gap: 1rem;
    }
 
    .learnmore{ 
@@ -149,3 +152,43 @@ h1{
     padding: 9px 21px;
     border-radius: 6px;
    }
+
+   .split-text .first-part {
+    color: var(--ngrey); 
+  }
+  .split-text .second-part {
+    color: var(--green);
+  }
+
+.text-sec{
+    max-width: 500px;
+}
+
+.title-sec{
+    max-width: 400px;
+}
+
+.heading{
+    display: flex;
+}
+
+.heading-wrap{
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+.heading-icon{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.heading-icon img{
+width: 30px;
+}
+
+.hitext{
+    display: flex;
+    flex-direction: column;
+}
