@@ -65,17 +65,20 @@ button{
     padding: 3rem;
 }
 
-h1{
+
+.split-text .first-part {
+    color: var(--ngrey); 
     font-weight: 600;
     font-size: 3rem;
     width: 657;
     height: 152;
-}
-.split-text .first-part {
-    color: var(--ngrey); 
   }
   .split-text .second-part {
     color: var(--green);
+    font-weight: 600;
+    font-size: 3rem;
+    width: 657;
+    height: 152;
   }
 
   .hero-text{
@@ -170,6 +173,7 @@ h1{
 
 .heading{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .heading-wrap{
@@ -191,4 +195,51 @@ width: 30px;
 .hitext{
     display: flex;
     flex-direction: column;
+    font-weight:3rem;
 }
+
+.split-text2 .first-part {
+    color: var(--ngrey); 
+    font-size: 24px;
+    margin: 0;
+    line-height: 1;
+  }
+  .split-text2 .second-part {
+    color: var(--green);
+    font-size: 24px;
+    margin: 0;
+    line-height: 0;
+  }
+
+  .calender{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--ngrey);
+    padding: 3rem 0 0 7rem;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .calender-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    max-width: 600px;
+    gap: 1rem;
+  }
+
+  .customer{
+    display: flex;
+    justify-content: space-between
+  }
+
+  .customer-text{
+
+  }
+
+  .customerimg{
+    opacity: 99;
+  }
+ 
