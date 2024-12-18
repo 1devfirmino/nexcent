@@ -232,11 +232,13 @@ width: 30px;
 
   .customer{
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
+    align-items: last baseline ;
   }
 
   .customer-text{
-
+    display: flex;
+    flex-direction: column;
   }
 
   .customerimg{
