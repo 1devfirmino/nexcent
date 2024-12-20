@@ -282,3 +282,23 @@ width: 30px;
     width: 29rem;
     color: var(--ngrey);
   }
+
+  .readmais{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .box{
+    background-color: #efefef;
+    box-shadow: #18191F;
+    border-radius: 8px;
+    margin: 30px ;
+    padding: 30px;
+    width: 315px;
+    height: 170px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+  }
