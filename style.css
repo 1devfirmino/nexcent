@@ -233,15 +233,28 @@ width: 30px;
   .customer{
     display: flex;
     justify-content: space-around;
-    align-items: last baseline ;
+    align-items: center;
   }
 
   .customer-text{
     display: flex;
     flex-direction: column;
+    width: 37rem;
   }
 
   .customerimg{
     opacity: 99;
   }
+
+  .timsmith{
+    color: var(--green);
+  }
  
+  .textbottom{
+    color: var(--ngrey);
+  }
+
+  .meetallcustomers{
+    columns: var(--green);
+  }
+
