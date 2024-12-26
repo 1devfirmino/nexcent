@@ -323,3 +323,7 @@ width: 30px;
   .f1h1{
     font-size: 30px;
   }
+
+  .footerbig{
+    display: flex;
+  }
