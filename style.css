@@ -325,5 +325,7 @@ width: 30px;
   }
 
   .footerbig{
+    background-color: #263238;
+    color: #fff;
     display: flex;
   }
