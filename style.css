@@ -4,7 +4,6 @@
     border: 0;box-sizing: border-box;
     font-family: "Inter", serif;
     text-decoration: none;
-    color: var(--darkgray);
 }
 
 :root{
@@ -328,4 +327,10 @@ width: 30px;
     background-color: #263238;
     color: #fff;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .socialmedia{
+    color: #fff;
   }
